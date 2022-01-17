@@ -46,10 +46,6 @@ $('document').ready(function(){
 		msgLoop(0);
 		
 	});
-	
-	$('#tombol').click(function(){
-		$('.song').remove(0);
-	});
 });
 
 
