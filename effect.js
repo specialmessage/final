@@ -32,7 +32,6 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(2000);
 			if(i==21){
 				$("p:nth-child(20)").fadeOut('slow').promise().done(function () {
-					$('.song').remove(0);
 				});
 				
 			}
@@ -48,6 +47,9 @@ $('document').ready(function(){
 		
 	});
 	
+	$('#tombol').click(function(){
+		$('.song').remove(0);
+	});
 });
 
 
